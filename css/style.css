@@ -1,0 +1,311 @@
+*{
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+
+}
+
+.modelados{
+	position: absolute;
+	z-index: 10;
+}
+
+
+.logo {
+	position: fixed;
+	left: 5%;
+	top: 5%;
+}
+
+.logo #Yletra img{
+	width: 35px;
+}
+.navBar{
+	position: fixed;
+	color: white;
+	z-index: 100;
+	left: 5%;
+	top: 15vh;
+	text-decoration: none;
+}
+
+.navBar a{
+	color: #696969;
+	text-orientation: inherit;
+	writing-mode: vertical-rl;
+	padding: 25px 0;
+	font-size: 15px;
+	font-weight: 400;
+
+
+	transition: all .7s;
+}
+
+.navBar a:hover{
+	color: #DCDCDC;
+	font-size: 20px;
+}
+
+.navBar li{
+	padding-top: 5px;
+	list-style-type: none;
+}
+
+.myName{
+	position: absolute;
+	z-index: 50;
+	right: 10vw;
+	top: 60vh;
+	width: 35vw;
+}
+
+body{
+	background: black;
+	overflow: auto;
+}
+
+#grad1 {
+ 	height: 100vh;
+	width: 100vw;
+ 	z-index: -200;
+ 	position: absolute;
+}
+
+
+
+
+
+#contact{
+	z-index: 200;
+	align-content: center;
+	vertical-align: center;
+
+	float: right;
+	padding: 2% 5%;
+	text-align: right;
+	width: 400px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+	margin-top: 60vh;
+}
+
+#contact h2 {
+	color: #DCDCDC;
+	text-transform: uppercase;
+	padding-top: 5px;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+#contact h4{
+	color: #DCDCDC;
+	margin: 2px 0;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+
+#Yu{
+	height: 80vh;	
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border-radius: 20px;
+	box-shadow: 5px 8px 20px 0 rgba(0, 0, 0, 0.2), 5px 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+#HardSkills{
+	float: left;
+	margin-left: 20vw;
+	margin-top: 20vh;
+
+}
+
+#HardSkills h1, p, #SoftSkills{
+	color: white;
+
+}
+
+#HardSkills p{
+	margin-top: 5px;
+}
+
+.container {
+  width: 20vw;
+  background-color: #ddd;
+
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 70%; background-color: #A40000;}
+.css {width: 60%; background-color: #A40000;}
+.maya {width: 70%; background-color: #A40000;}
+.illustrator {width: 90%; background-color: #A40000;}
+.three {width: 20%; background-color: #A40000;}
+.ingles {width: 90%; background-color: #A40000;}
+.aleman {width: 30%; background-color: #A40000;}
+
+#SoftSkills{
+	float: left;
+	margin-left: 20vw;
+	margin-top: 5vh;
+	margin-bottom: 10vh;
+}
+
+#content{
+	display: flex;
+}
+
+.productos{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	flex-basis: 85%;
+	margin: 0 auto;
+}
+
+.item{
+	margin: 30px;
+	flex-basis: 25%;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 3px 3px 10px #600000;
+	flex-grow: 2;
+	box-sizing: border-box;
+}
+
+.item-info{
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.item-info a{
+	font-size: 16px;
+	color: #990000;
+	transition: all 300ms;
+	font-weight: 800;
+
+}
+
+.item-info a:hover{
+	color: #555;
+	font-size: 20px;
+}
+
+.image-wrap{
+	overflow: hidden;
+	max-height: 230px;
+}
+
+.image-wrap img{
+
+}
+
+.image-wrap img{
+	width: 100%;
+	transition: all 300ms;
+}
+
+.image-wrap img:hover{
+	transform: scale(1.3, 1.3);
+}
+
+#FotoADM{
+	float: left;
+	margin-left: 20vw;
+	margin-top: 20vh;
+}
+
+#YF{
+	width: 200px;
+	border-radius: 10px;
+
+}
+
+@media only screen and (max-width:800px) {
+  /* For mobile phones: */
+  .myName {
+    width:80vw;
+    align-content: center;
+  }
+
+  #contact h2{
+  	font-size: 20px
+  }
+
+  #contact h4{
+  	font-size: 10px;
+  }
+  #contact{
+  	width: 200px;
+  }
+
+  #contact br{
+
+  }
+  #Yu{
+  	height: 60vh;
+  	margin-top: 150px;
+  }
+
+  #HardSkills, #SoftSkills{
+	
+	display: inline-block;
+	}
+
+	#HardSkills{
+		margin-top: 10vh;
+	}
+
+	#HardSkills h1, #SoftSkills h1, #SoftSkills p {
+		text-align: center;
+	}
+
+	#SoftSkills{
+		margin-top: 20px;
+		width: 70vw;
+	}
+
+	.container{
+		width: 70vw;
+	}
+
+	.item{
+		flex-basis: 35%;
+		margin: 20px;
+	}
+
+	#FotoADM{
+	
+		
+		margin-top: 30px;
+		float: left;
+		margin-left: 20vw;
+		width: 70vw;
+		
+	}
+	#YF{
+		margin-left: 50%;
+		transform: translate(-50%);
+
+	}
+}
+
+
+
+@media (max-width: 500px){
+	.item{
+		flex-basis: 75%;
+		margin: 30px;
+	}
+}
